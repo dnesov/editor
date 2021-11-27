@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && node chtml.js"
+    "build": "webpack && node chtml.js",
+    "build-dev": "webpack --mode=development && node chtml.js",
+    "watch": "webpack --mode=development --watch"
   },
   "repository": {
     "type": "git",
